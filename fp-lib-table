@@ -1,5 +1,5 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "float_pcb_footprints") (type "KiCad") (uri "${KIPRJMOD}/float_pcb_footprints.pretty") (options "") (descr ""))
-	(lib (name "buzzer") (type "KiCad") (uri "${KIPRJMOD}/external/AT_1127_ST_2_R/footprints.pretty") (options "") (descr ""))
+	(lib (name "float_pcb_footprints") (type "KiCad") (uri "${KIPRJMOD}/kicad_libs/footprints/float_pcb_footprints.pretty") (options "") (descr "Project custom footprints"))
+	(lib (name "buzzer") (type "KiCad") (uri "${KIPRJMOD}/kicad_libs/external/CPT_9019A_SMT_TR/footprints.pretty") (options "") (descr ""))
 )
