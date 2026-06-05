@@ -5089,7 +5089,7 @@
 	)
 	(text "5V Buck Convertor\n"
 		(exclude_from_sim no)
-		(at 69.85 57.404 0)
+		(at 69.596 56.388 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5256,6 +5256,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5013650a-34ed-4e33-a08e-c31a966dc93f")
+	)
+	(junction
+		(at 121.92 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52a32934-fb9e-42b6-83ef-a6e23c9f1b80")
 	)
 	(junction
 		(at 114.3 36.83)
@@ -7076,6 +7082,16 @@
 			(type default)
 		)
 		(uuid "e4e51048-0815-4617-9549-b7b166fee724")
+	)
+	(wire
+		(pts
+			(xy 118.11 113.03) (xy 121.92 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e69b621f-9f7c-42d5-8546-617611e77b3c")
 	)
 	(wire
 		(pts
@@ -9370,6 +9386,85 @@
 			(project "float_pcb"
 				(path "/c862e882-4741-4de1-b296-17adfea7dce3"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 118.11 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22b923b0-4949-4fff-9ce9-829b5b1bfd12")
+		(property "Reference" "TP11"
+			(at 120.65 108.4579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BATT_ADC"
+			(at 120.65 110.9979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 123.19 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 118.11 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3653c3c2-2635-4c75-9c02-64131a35608d")
+		)
+		(instances
+			(project "float_pcb"
+				(path "/c862e882-4741-4de1-b296-17adfea7dce3"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
